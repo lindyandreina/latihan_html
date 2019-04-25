@@ -1,0 +1,40 @@
+/* start body */
+body {
+    background-color: pink;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* end body */
+
+/* start debung */
+.bg-blue {
+    background-color: bisque;
+}
+
+.bg-red {
+    background-color: palevioletred;
+}
+/* end debung */
+
+/* start container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.full {
+    overflow: auto;
+    width: 100%;
+}
+
+/* end container */
+
+/* start logo */
+.logo {
+    text-align: center;
+}
+/* end logo */
