@@ -21,7 +21,7 @@ body {
 }
 
 .bg-red {
-    background-color: palevioletred;
+    background-color: #891A0D;
 }
 /* end debung */
 
@@ -46,23 +46,30 @@ body {
 /* end logo */
 
 /* start menu primer */
+a:link {
+    text-decoration: none;
+}
+
+a {color: white; }
 .menu-primer ul {
-    background-color: palevioletred;
     border-radius: 4px;
     box-shadow: 
-        0 3px 5px -1px grey,
-        0 6px 10px 0 black,
-        0 1px 18px 0 white;    
+        0 3px 3px -1px grey,
+        0 1px 1px 0 black,
+        0 1px 3px 0 white;   
+    text-align: center;
+
 }
 
 .menu-primer li {
     display: inline-block;
-    border-right: 1px solid paleturquoise;
     margin: 0 -4px;
 }
 
+
 .menu-primer a {
-    color: black;
+    color: white;
+    text-decoration: none;
     font-size: 13px;
     display: inline-block;
     letter-spacing: 1px;
@@ -71,28 +78,28 @@ body {
 }
 
 .menu-primer a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: palevioletred;
+    color: white;
     text-decoration: none;
 }
 
 .menu-primer .active {
-    background-color: white;
+    background-color: whitesmoke;
     color:black;
     text-decoration: none;
 }
 /* end menu primer */
 
-/* start anchor/ hyperlink */
-  a:link,
+/* start anchor/ hyperlink /a:link */ 
+  
   a:visited {
         color: black;
         text-decoration: none;
   }
 
-  a: :hover,
+  a:hover,
   a:active {
-    color: plum;
+    color:black;
     text-decoration: underline;  
   }
 /* end anchor/ hyperlink */
@@ -174,7 +181,8 @@ h6{
 
 /* start box */
 .box-heading {
-    background-color: plum;
+    color: white;
+    background-color: palevioletred;
     border: 1px solid bisque;
     border-radius: 3px 3px 0 0;
     padding: 10px 20px;
@@ -184,6 +192,11 @@ h6{
 .box-heading h4 {
     font-size: 14px;
     margin: 0;
+}
+
+.box-isi img {
+    height: 120px;
+    width: 500px;
 }
 
 .box-isi {
@@ -197,7 +210,7 @@ h6{
 
 /* start testimonial */
 .testimonial {
-    border-left: 4px solid plum;
+    border-left: 4px solid palevioletred`;
     margin-left: 30px;
     padding-left: 20px;
 }
@@ -284,6 +297,11 @@ input[type="submint"] {
 .menu-sekunder-one {
     width: 40%;
 }
+
+.menu-sekunder-one a {
+    color: black;
+}
+
 .menu-sekunder-two,
 .menu-sekunder-three {
     width: 30%;
@@ -407,3 +425,15 @@ input[type="submint"] {
 }
 /* end effect */
 
+.menu-sekunder-three img {
+    weight: 50px;
+    height: 50px;
+}
+
+.menu-sekunder-three a {
+    color:black;
+}
+
+.container-copyright {
+    text-align: center;
+}
