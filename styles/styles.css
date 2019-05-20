@@ -167,6 +167,7 @@ h6{
     
 }
 
+
 .centertext {
     text-align: center;
 }
@@ -194,7 +195,7 @@ h6{
 .box-heading {
     color: white;
     background-color: palevioletred;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 10px 10px 0 0;
     padding: 10px 20px;
     margin: 0;
@@ -217,7 +218,7 @@ h6{
 .box-isi {
     min-height: 250px;
     background-color: bisque;
-    border: 2px solid gray;
+    border: 1px solid gray;
     border-radius: 0 0 10px 10px ;
     border-top: none;
     padding: 10px 20px;
@@ -317,6 +318,7 @@ input[type="submint"] {
     font-size: 14px;
     text-transform: uppercase;
     margin: 0 auto;
+    font-weight: 700;
 }
 .menu-sekunder ul {
     padding: 0;
@@ -327,7 +329,13 @@ input[type="submint"] {
 .menu-sekunder li a, 
 .menu-sekunder p {
     font-size: 15px;
+    margin-top: 30px;
 }
+
+.hide ul {
+    margin-top: 30px;
+}
+
 .menu-sekunder-one,
 .menu-sekunder-two,
 .menu-sekunder-three {
