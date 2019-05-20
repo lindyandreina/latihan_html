@@ -55,10 +55,11 @@ a:link {
 a {color: white; }
 .menu-primer ul {
     border-radius: 4px;
+    border: solid 1px grey;
     box-shadow: 
         0 3px 3px -1px grey,
         0 1px 1px 0 black,
-        0 1px 3px 0 white;   
+        0 1px 3px grey;   
     text-align: center;
 
 }
@@ -162,8 +163,16 @@ h6{
 
 .main-home-one .box-isi,
 .main-home-two .box-isi {
-    height: 150px;
+    height: 40%;
     
+}
+
+.centertext {
+    text-align: center;
+}
+
+.main-home-two .box-isi ul {
+    list-style-type: none;
 }
 
 .main-one {
@@ -185,8 +194,8 @@ h6{
 .box-heading {
     color: white;
     background-color: palevioletred;
-    border: 1px solid bisque;
-    border-radius: 3px 3px 0 0;
+    border: 2px solid gray;
+    border-radius: 10px 10px 0 0;
     padding: 10px 20px;
     margin: 0;
     text-transform: uppercase;
@@ -197,22 +206,46 @@ h6{
 }
 
 .box-isi img {
-    height: 120px;
-    width: 500px;
+   width: 80%;
+}
+
+.box-isi ul {
+    padding: 30px;
+    padding-bottom: 0;
 }
 
 .box-isi {
-    background-color: white;
-    border: 1px solid bisque;
-    border-top: 0;
+    min-height: 250px;
+    background-color: bisque;
+    border: 2px solid gray;
+    border-radius: 0 0 10px 10px ;
+    border-top: none;
     padding: 10px 20px;
     margin: 0;
 }
 /* end box */
 
+.faq, .pay, .kont {
+    padding: 50px;
+}
+
+.faq ul {
+    padding: 10px;
+}
+
+.pay ul {
+    padding: 2px;
+}
+
+.kont ul {
+    padding: 5px;
+}
+
+
+
 /* start testimonial */
 .testimonial {
-    border-left: 4px solid palevioletred`;
+    border-left: 4px solid palevioletred;
     margin-left: 30px;
     padding-left: 20px;
 }
@@ -243,7 +276,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: peachpuff;
+    color: grey;
     font-weight: 300;
 }
 
@@ -269,6 +302,10 @@ input[type="submint"] {
 /* end contact form */
 
 /* start menu sekunder */
+.menu-sekunder {
+    margin: 50px 0 20px 0;
+    padding: 30px 20px;
+}
 .menu-sekunder-one {
     /* background-color: pink;
     border-bottom: 1px solid white;
@@ -322,8 +359,7 @@ input[type="submint"] {
     position: relative;
     display: inline-block;
     margin: 20px;
-    max-width: 190px;
-    width: 100%;
+    width: 15%;
     color: #bbb;
     font-size: 16px;
     box-shadow: none !important;
@@ -423,12 +459,14 @@ input[type="submint"] {
 
 /* start effect */
 .effect {
-    height: 249px;
+    height: 40%;
+    overflow: hidden;
+    text-align: center;
 }
 /* end effect */
 
 .menu-sekunder-three img {
-    weight: 50px;
+    width: 50px;
     height: 50px;
 }
 
@@ -453,7 +491,7 @@ input[type="submint"] {
     font-size: 16px;
     line-height: 1.6em;
     margin: 10px;
-    max-width: 310px;
+    max-width: 30%;
     min-width: 250px;
     overflow: hidden;
     position: relative;
