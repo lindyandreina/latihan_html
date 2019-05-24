@@ -236,6 +236,10 @@ h6{
     padding: 10px;
 }
 
+.faq a {
+  color: black;
+}
+
 .pay ul {
     padding: 2px;
 }
@@ -695,3 +699,5 @@ input[type="submint"] {
     opacity: 0.9;
   }
   /* coba */
+
+ 
